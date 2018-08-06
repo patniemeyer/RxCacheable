@@ -15,6 +15,6 @@ This provides a way to transform the cached data in the CachedSingle for a time 
 
 Example
 
-I’m have a network API for status on a user.  I’m going to make a call that will attempt to change the status.  I want to show the change immediately in the client UI (in a consistent way throughout the app) but allow subsequent updates from the server to take precedence in a natural way that avoids race conditions with stale data.   The above utilities appear to make this easy, even when composing a view from multiple data sources.  I simply transform the status with the expected or indeterminate result and then confirm/rollback and expire the the transformation.
+I have a network API for status on a user.  I’m going to make a call that will attempt to change the status.  I want to show the change immediately in the client UI (in a consistent way throughout the app) but allow subsequent updates from the server to take precedence in a natural way, avoiding race conditions with stale data.   The above utilities appear to make this easy, even when composing a view from multiple data sources.  I can simply transform the status with the expected (or indeterminate) result and then confirm/rollback and expire the the transformation.
 
 
