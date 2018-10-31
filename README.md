@@ -1,6 +1,10 @@
 # RxCacheable
 RxSwift Caching Utillities
 
+For more info please see the brief article I posted about the code here:
+
+https://patniemeyer.github.io/2018/08/06/RxCacheable-caching-and-optimistic-transformations-for-rxswift.html
+
 I have been working on a couple of simple extensions for data caching with Rx and I would be interested in any comments on these.  e.g. if there is already some way to achieve the effect with a combination of built-in operators or, alternately, if anyone thinks these would be useful as proper Traits.
 
 The two classes are:
